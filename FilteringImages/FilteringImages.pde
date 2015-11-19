@@ -7,7 +7,8 @@ void setup(){
   pumpkin=loadImage("MehtaPumpkinSpooky.jpg");
 }
 void draw(){
-  image(knicks,width,height,100,50);
+  background(0);
+  image(knicks,mouseX,mouseY,200,100);
   filter(GRAY);
 }
   
